@@ -7,6 +7,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 .orange-color {
     color: orange;
 }
@@ -26,6 +30,26 @@ h1 {
     background-position: right;
 }
 
+.bottom-section {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.flexible-container {
+    display: flex;
+}
+
+.experience-item {
+    width: 40%;
+    padding-left: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 35px gray;
+    margin-bottom: 100px;
+    border-radius: 5px;
+}
+
 .half-width {
     width: 50%;
     padding-left: 5%;
@@ -40,7 +64,23 @@ h1 {
     text-decoration: none;
     background-image: linear-gradient(to right, rgb(207, 163, 82), rgb(254, 124, 101));
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 7px;
     color: white;
     font-weight: 700;
+}
+
+#full-stack-developer-experience {
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#baby-web-developer-experience {
+    border-left: 10px solid;
+    border-image: linear-gradient(red, seagreen);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
